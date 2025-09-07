@@ -66,24 +66,24 @@ const Header = () => {
                         <button
                             title="menu"
                             onClick={handleMenuToggle}
-                            className="relative ml-auto mr-2 flex cursor-pointer flex-col w-6 h-6 justify-center gap-2 z-10 bg-white"
+                            className="relative ml-auto mr-2 flex cursor-pointer flex-col w-8 h-6 justify-center gap-2 z-10"
                         >
                             <span
-                                className={`h-[1px] bg-white transition-all ${
+                                className={`h-[2px] bg-white transition-all ${
                                     menuOpen
-                                        ? 'rotate-45 translate-y-[9px]'
+                                        ? 'rotate-45 translate-y-[10px]'
                                         : ''
                                 }`}
                             ></span>
                             <span
-                                className={`h-[1px] bg-white transition-all ${
+                                className={`h-[2px] bg-white transition-all ${
                                     menuOpen ? 'opacity-0' : ''
                                 }`}
                             ></span>
                             <span
-                                className={`h-[1px] bg-white transition-all ${
+                                className={`h-[2px] bg-white transition-all ${
                                     menuOpen
-                                        ? '-rotate-45 -translate-y-[9px]'
+                                        ? '-rotate-45 -translate-y-[10px]'
                                         : ''
                                 }`}
                             ></span>
