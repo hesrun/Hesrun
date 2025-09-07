@@ -92,9 +92,9 @@ const Header = () => {
 
                     <nav
                         ref={mobNav}
-                        className="fixed z-[5] flex flex-col left-0 top-0 right-0 bottom-0 bg-black opacity-0 translate-x-full pointer-events-none md:flex-row md:justify-between md:static md:bg-transparent md:opacity-100 md:translate-x-0 md:pointer-events-auto md:grow"
+                        className="fixed z-[5] flex flex-col left-0 top-14 right-0 bottom-0 bg-black opacity-0 translate-x-full pointer-events-none md:flex-row md:justify-between md:static md:bg-transparent md:opacity-100 md:translate-x-0 md:pointer-events-auto md:grow"
                     >
-                        <ul className="h-full flex flex-col justify-center items-center gap-8 text-4xl md:h-auto md:flex-row md:text-sm">
+                        <ul className="h-full flex flex-col justify-center items-center gap-8 text-3xl md:h-auto md:flex-row md:text-sm">
                             {links.map((item) => (
                                 <li key={item.id}>
                                     <a
