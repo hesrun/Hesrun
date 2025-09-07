@@ -66,7 +66,7 @@ const Header = () => {
                         <button
                             title="menu"
                             onClick={handleMenuToggle}
-                            className="relative ml-auto mr-2 flex cursor-pointer flex-col w-6 h-6 justify-center gap-2 z-10"
+                            className="relative ml-auto mr-2 flex cursor-pointer flex-col w-6 h-6 justify-center gap-2 z-10 bg-white"
                         >
                             <span
                                 className={`h-[1px] bg-white transition-all ${
