@@ -12,7 +12,7 @@ const Section = ({
     return (
         <section
             id={id}
-            className={`pb-20 lg:pb-32 scroll-mt-10 lg:scroll-mt-20 overflow-hidden ${
+            className={`pb-20 lg:pb-32 scroll-mt-20 lg:scroll-mt-20 overflow-hidden ${
                 className ? className : ''
             }`}
         >
