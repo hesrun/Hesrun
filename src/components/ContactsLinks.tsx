@@ -1,4 +1,4 @@
-import { BsEnvelope, BsLinkedin, BsMailbox } from 'react-icons/bs';
+import { BsEnvelope, BsLinkedin } from 'react-icons/bs';
 import { GrGithub } from 'react-icons/gr';
 
 const ContactsLinks = () => {

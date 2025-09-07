@@ -45,9 +45,9 @@ const useWorks = () => {
             setLoading(true);
             const response = await client.getEntries({
                 content_type: 'myWork',
-                order: 'fields.order',
+                order: 'fields.order' as any,
             });
-            setData(response);
+            setData(response as any);
         } catch (error: unknown) {
             const errorMessage =
                 error instanceof Error ? error.message : String(error);

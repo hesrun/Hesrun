@@ -12,7 +12,7 @@ interface MyTitle {
 gsap.registerPlugin(ScrollTrigger, SplitText);
 
 const Title = ({ type, className, children }: MyTitle) => {
-    const title = useRef<HTMLElement | null>(null);
+    const title = useRef<HTMLHeadingElement | null>(null);
     const Type = type;
 
     useGSAP(() => {

@@ -18,7 +18,7 @@ const options = {
         [MARKS.BOLD]: (text: React.ReactNode) => <span>{text}</span>,
     },
     renderNode: {
-        [BLOCKS.PARAGRAPH]: (node: any, children: React.ReactNode) => (
+        [BLOCKS.PARAGRAPH]: (_node: any, children: React.ReactNode) => (
             <p>{children}</p>
         ),
     },

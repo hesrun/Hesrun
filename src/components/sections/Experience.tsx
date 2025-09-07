@@ -116,7 +116,7 @@ const Experience = () => {
                 <div className="absolute top-0 w-[2px] h-full left-[19px] lg:left-1/2 -z-1 overflow-hidden">
                     <div
                         ref={lineRef}
-                        className="w-full h-full bg-gradient-to-b from-teal-800 from-70% to-teal-400 to-100%"
+                        className="w-full h-full bg-gradient-to-b from-teal-900 from-90% to-teal-200 to-100%"
                     ></div>
                     <div
                         className="absolute inset-0 pointer-events-none"
