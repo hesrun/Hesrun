@@ -16,27 +16,26 @@ const Title = ({ type, className, children }: MyTitle) => {
     const Type = type;
 
     useGSAP(() => {
-        document.fonts.ready.then(() => {
-            const split = new SplitText(title.current, { type: 'chars' });
-            gsap.from(split.chars, {
-                opacity: 0,
-                x: 50,
-                stagger: 0.03,
-                duration: 0.2,
-                ease: 'power2.out',
-                scrollTrigger: {
-                    trigger: title.current,
-                    start: 'top 80%',
-                    scrub: false,
-                    //markers: true,
-                },
-            });
+        const splitWords = new SplitText(title.current, { type: 'words' });
+        const splitChars = new SplitText(splitWords.words, { type: 'chars' });
+        gsap.from(splitChars.chars, {
+            opacity: 0,
+            x: 50,
+            stagger: 0.03,
+            duration: 0.2,
+            ease: 'power2.out',
+            scrollTrigger: {
+                trigger: title.current,
+                start: 'top 80%',
+                scrub: false,
+                //markers: true,
+            },
         });
     });
     return (
         <Type
             ref={title}
-            className={`text-3xl xl:text-6xl text-balance text-black font-bold uppercase text-stroke text-center ${className} `}
+            className={`text-3xl xl:text-6xl text-black font-bold uppercase text-stroke text-center ${className} `}
         >
             {children}
         </Type>
