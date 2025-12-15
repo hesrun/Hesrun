@@ -17,6 +17,7 @@ import {
     SiTailwindcss,
     SiTypescript,
     SiVite,
+    SiSupabase,
 } from 'react-icons/si';
 
 type TechNames =
@@ -36,7 +37,8 @@ type TechNames =
     | 'npm'
     | 'figma'
     | 'github'
-    | 'git';
+    | 'git'
+    | 'supabase';
 interface Technology {
     id: TechNames;
     name: string;
@@ -72,6 +74,12 @@ const techArr: Technology[] = [
     { id: 'figma', name: 'Figma', icon: <SiFigma />, color: '#F24E1E' },
     { id: 'git', name: 'Git', icon: <SiGit />, color: '#F05033' },
     { id: 'github', name: 'GitHub', icon: <SiGithub />, color: '#fff' },
+    {
+        id: 'supabase',
+        name: 'Supabase',
+        icon: <SiSupabase />,
+        color: '#3ECF8E',
+    },
 ];
 
 const TechList = ({
