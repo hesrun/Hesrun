@@ -18,6 +18,8 @@ import {
     SiTypescript,
     SiVite,
     SiSupabase,
+    SiAppwrite,
+    SiNextdotjs,
 } from 'react-icons/si';
 
 type TechNames =
@@ -38,11 +40,14 @@ type TechNames =
     | 'figma'
     | 'github'
     | 'git'
-    | 'supabase';
+    | 'supabase'
+    | 'appwrite'
+    | 'nextjs'
+    | 'zustand';
 interface Technology {
     id: TechNames;
     name: string;
-    icon: ReactElement;
+    icon: ReactElement | null;
     color: string;
 }
 
@@ -59,7 +64,19 @@ const techArr: Technology[] = [
     { id: 'js', name: 'JS', icon: <SiJavascript />, color: '#F7DF1E' },
     { id: 'ts', name: 'TS', icon: <SiTypescript />, color: '#3178C6' },
     { id: 'react', name: 'React', icon: <SiReact />, color: '#61DAFB' },
+    {
+        id: 'nextjs',
+        name: 'Next.js',
+        icon: <SiNextdotjs />,
+        color: 'white',
+    },
     { id: 'mobx', name: 'MobX', icon: <SiMobx />, color: '#FF9955' },
+    {
+        id: 'zustand',
+        name: 'Zustand',
+        icon: null,
+        color: 'white',
+    },
     { id: 'jquery', name: 'jQuery', icon: <SiJquery />, color: '#0769AD' },
     { id: 'gsap', name: 'GSAP', icon: <SiGreensock />, color: '#88CE02' },
     {
@@ -79,6 +96,12 @@ const techArr: Technology[] = [
         name: 'Supabase',
         icon: <SiSupabase />,
         color: '#3ECF8E',
+    },
+    {
+        id: 'appwrite',
+        name: 'Appwrite',
+        icon: <SiAppwrite />,
+        color: '#FF5F5F',
     },
 ];
 
@@ -100,9 +123,11 @@ const TechList = ({
                     className="flex gap-2 items-center border border-white/10 py-2 px-3 md:px-4 rounded-4xl "
                 >
                     <span className="text-xs md:text-sm">{name}</span>
-                    <span className="text-md md:text-xl" style={{ color }}>
-                        {icon}
-                    </span>
+                    {icon && (
+                        <span className="text-md md:text-xl" style={{ color }}>
+                            {icon}
+                        </span>
+                    )}
                 </div>
             ))}
         </div>
