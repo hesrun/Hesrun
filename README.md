@@ -27,28 +27,6 @@ const vladyslav = {
 
 <br>
 
-## 📈 Results, not just code
-
-<table>
-  <tr>
-    <td align="center" width="25%"><h1>30+</h1><sub>projects shipped<br>at Tehmart</sub></td>
-    <td align="center" width="25%"><h1>300+</h1><sub>pages turned<br>from design into code</sub></td>
-    <td align="center" width="25%"><h1>200+</h1><sub>pages and screens<br>for a telemedicine app</sub></td>
-    <td align="center" width="25%"><h1>60 FPS</h1><sub>target for every animation,<br>desktop and phone</sub></td>
-  </tr>
-</table>
-
-**Pharmacy e‑shop rebuild** ([stmaria.cz](https://stmaria.cz)), frontend rebuilt without stopping sales:
-
-| Metric | Before | After | |
-|---|---:|---:|---|
-| People on the site at the same time | 20 | **500** | `25×` |
-| Orders per day | 10 | **160+** | `16×` |
-| Average time on the site | 1 min | **5 min** | `5×` |
-| Visitors on mobile | 15 % | **75 %** | `+60 pp` |
-
-<br>
-
 ## 🛠️ What I build
 
 | Service | What you get |
@@ -115,17 +93,6 @@ const vladyslav = {
 <img src="https://img.shields.io/badge/Vercel-000?style=flat-square&logo=vercel&logoColor=white" alt="Vercel">
 <img src="https://img.shields.io/badge/Netlify-000?style=flat-square&logo=netlify&logoColor=00C7B7" alt="Netlify">
 <img src="https://img.shields.io/badge/Lighthouse-000?style=flat-square&logo=lighthouse&logoColor=F44B21" alt="Lighthouse">
-
-<br>
-
-## 🧭 Experience
-
-- **2022 – now · Tehmart & independent projects**, frontend engineer (contract)<br>
-  UI systems and bespoke responsive layouts for luxury brands and high-traffic platforms, including **Konstantin Chaykin** and **Ineichen Auctioneers**. GSAP and Three.js animation, React and Next.js apps built from zero.
-- **2019 – 2025 · stmaria.cz**, frontend developer<br>
-  Rebuilt a live pharmacy e‑shop: mobile-first UI, faster pages, technical SEO and feeds for Google, Seznam, Heureka and Zboží.cz. Results in the table above.
-- **2013 – 2019 · Helpmed / Call2Doc**, frontend developer<br>
-  Patient and doctor interfaces for a telemedicine service on an in-house UI component library, with real-time updates.
 
 <br>
 
