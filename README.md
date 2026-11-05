@@ -51,7 +51,7 @@ const vladyslav = {
 
 ## 🛠️ What I build
 
-| | |
+| Service | What you get |
 |---|---|
 | ⚡ **Websites and landing pages that sell** | Fast, search-friendly, content you edit yourself. Sub-second pages and a structure Google understands from day one. |
 | ⚛️ **React web applications** | Dashboards, shops and internal tools with typed data from the database to the button: login, forms, payments. |
