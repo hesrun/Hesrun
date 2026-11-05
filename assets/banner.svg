@@ -2,6 +2,7 @@
   <title id="t">Vladyslav Otroshchenko — Frontend Engineer</title>
   <desc id="d">Fast websites, React and Next.js apps, motion and AI integrations.</desc>
   <defs>
+    <clipPath id="card"><rect width="1200" height="360" rx="24"/></clipPath>
     <radialGradient id="glowR" cx="85%" cy="10%" r="60%">
       <stop offset="0" stop-color="#5cc9a7" stop-opacity=".35"/>
       <stop offset="1" stop-color="#5cc9a7" stop-opacity="0"/>
@@ -34,10 +35,11 @@
     </style>
   </defs>
 
-  <rect width="1200" height="360" rx="24" fill="#000"/>
-  <rect width="1200" height="360" rx="24" fill="url(#glowR)"/>
-  <rect width="1200" height="360" rx="24" fill="url(#glowL)"/>
-  <rect x=".5" y=".5" width="1199" height="359" rx="23.5" fill="none" stroke="#1f1f1f"/>
+  <!-- One rounded clip for everything, so no layer edges peek out at the corners. -->
+  <g clip-path="url(#card)">
+  <rect width="1200" height="360" fill="#000"/>
+  <rect width="1200" height="360" fill="url(#glowR)"/>
+  <rect width="1200" height="360" fill="url(#glowL)"/>
 
   <!-- giant ghost word -->
   <text x="1210" y="330" text-anchor="end" class="sans" font-size="210" font-weight="800" fill="#fff" fill-opacity=".03" letter-spacing="-8">frontend</text>
@@ -69,4 +71,5 @@
 
   <!-- lead -->
   <text class="mono in4" x="64" y="290" font-size="17" fill="#9a9a9a">// fast websites · React &amp; Next.js apps · motion · AI integrations<tspan class="caret" fill="#5cc9a7"> ▍</tspan></text>
+  </g>
 </svg>
