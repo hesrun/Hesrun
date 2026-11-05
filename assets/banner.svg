@@ -60,10 +60,10 @@
   </g>
 
   <!-- headline -->
-  <text class="sans in2" x="64" y="158" font-size="58" font-weight="600" fill="#fff" letter-spacing="-2">Hi, I’m Vladyslav,</text>
-  <text class="sans in3" x="64" y="226" font-size="58" font-weight="600" fill="#fff" letter-spacing="-2">a <tspan fill="url(#fade)">frontend</tspan> engineer</text>
+  <text class="sans in2" x="64" y="136" font-size="58" font-weight="600" fill="#fff" letter-spacing="-2">Hi, I’m Vladyslav,</text>
+  <text class="sans in3" x="64" y="204" font-size="58" font-weight="600" fill="#fff" letter-spacing="-2">a <tspan fill="url(#fade)">frontend</tspan> engineer</text>
 
   <!-- lead -->
-  <text class="mono in4" x="64" y="290" font-size="17" fill="#9a9a9a">// fast websites · React &amp; Next.js apps · motion · AI integrations<tspan class="caret" fill="#5cc9a7"> ▍</tspan></text>
+  <text class="mono in4" x="64" y="268" font-size="17" fill="#9a9a9a">// fast websites · React &amp; Next.js apps · motion · AI integrations<tspan class="caret" fill="#5cc9a7"> ▍</tspan></text>
   </g>
 </svg>
