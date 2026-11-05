@@ -59,12 +59,6 @@
     <circle class="f1" cx="890" cy="200" r="3" fill="#fff" fill-opacity=".3" style="transform-origin: 890px 200px"/>
   </g>
 
-  <!-- mark -->
-  <g class="in1" transform="translate(64 58)">
-    <text class="mono" font-size="22" fill="#fff">{<tspan fill="#5cc9a7">•</tspan>}</text>
-    <text x="52" class="sans" font-size="20" font-weight="700" fill="#fff">Hesrun</text>
-  </g>
-
   <!-- headline -->
   <text class="sans in2" x="64" y="158" font-size="58" font-weight="600" fill="#fff" letter-spacing="-2">Hi, I’m Vladyslav,</text>
   <text class="sans in3" x="64" y="226" font-size="58" font-weight="600" fill="#fff" letter-spacing="-2">a <tspan fill="url(#fade)">frontend</tspan> engineer</text>
